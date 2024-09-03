@@ -1,0 +1,116 @@
+Python Variables
+
+    Python variables are the reserved memory location used to store values with in a Python Program.
+
+Creating Python Variables
+
+    Python variables do not need explicit declaration to reserve memory space or you can say to create a variable. A Python variable is created automatically when you assign a value to it. The equal sign ( = ) is used to assign values to variables.
+
+    For example -
+
+        counter = 100 # Creates an integer variable
+        miles = 1000.9 # Creates a floating point variable
+        name = "Kamalesh Sarkar" # Creates a string variable
+
+Printing Python Variables
+
+    We can print it using print() function.
+
+        print(counter)
+        print(miles)
+        print(name)
+
+Deleting Python Variables
+
+    You can delete the reference to a number object by using the del statement.
+    The syntex of the del statement is- 
+
+        del var1[,var2[,var3[....,varN]]]
+
+    You can delete a single object or multiple object by using the del statement.
+
+        del var 
+        del var_a, var_b
+
+    Example --
+
+        counter = 100
+        print(counter)
+
+        del counter
+        print(counter)
+
+Getting Type of a Variable
+
+    You can get the data type of a Python variable using the Python built-in function type() as follows.
+
+        Example : Printing Variable Type
+
+        x = "Kamalesh"
+        y = 10
+        z = 10.10
+
+        print(type(x))
+        print(type)(y)
+        print(type)(z)
+
+Casting Python Variables
+
+    Example 
+
+        x = str(10) # x will be '10'
+        y = int(10) # y will be 10
+        z = float(10) # z will be 10.0
+
+        print("x = ", x)
+        print("y = ", y)
+        print("z = ", z)
+
+Case-Sensitive of Python Variables 
+
+    Python variables are case sensitive which means Age and age are two different variables:
+
+    age = 20
+    Age = 30
+
+    print( "age =", age )
+    print( "Age =", Age )
+
+Python Variable - Multiple Assignment
+
+    Python allows to initialize more than one variable in a single statement. In the following case, three variable have same value.
+
+    >>> a=10
+    >>> b=10
+    >>> c=10
+
+    Instead of separate assignments, you can do it in a single assignment statement as follows −
+
+    >>> a=b=c=10
+    >>> print(a,b,c)
+    10 10 10
+
+    We have three variable with different values.
+
+    >>> a=10
+    >>> b=20
+    >>> c=30
+    These separate assignment statements can be combined in one.
+
+    >>> a,b,c = 10,20,30
+    >>> print (a,b,c)
+    10 20 30
+    
+    a = b = c = 100
+
+    print (a)
+    print (b)
+    print (c)
+
+    You can aslo assign multiple  object to multiple variables.
+
+        a = b = c = 100
+
+        print (a)
+        print (b)
+        print (c)

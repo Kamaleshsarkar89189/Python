@@ -1,0 +1,72 @@
+What is Python?
+
+    Python is a very popular general-purpose interpreted, interactive, object-oriented, and high-level programming language. Created by Guido Van Rossum during 1985-1990.
+
+Frequently Asked Questions About Python History
+    1. Who created Python?
+    Python created by Guido Van Rossum, a Dutch Programmer.
+
+    2. Why Python is called Python?
+    Python does not have any relation to Snake. The name of the Python  programming language was inspired by a British Comedy Group Monty    Python.
+
+    3. When was Python's first version released?
+    Python's first version was released in February 1991.
+
+    4. What was the first version of Python?
+    Python's first version was Python 0.9.0
+
+    5. When was Python 3.0 version released?
+    Python 3.0 version was released in December 2018.
+
+Python Features
+
+    Easy to Learn
+    Dynamically Typed
+    Interpreter Based
+    Interactive
+    Multi-paradigm
+    Standard Library
+    Open Source and Cross Platform
+    GUI Applications
+    Database Connectivity
+    Extensible
+    Active Developer Community
+
+Python - Applications Areas
+
+    Data Science
+    Machine Learning
+    Web Development
+    Computer Vision and Image processing
+    Embedded Systems and IoT
+    Job Scheduling and Automation
+    Desktop GUI Applications
+    Console-based Applications
+    CAD Applications
+    Game Development
+
+Python Reserved Words
+
+    and	        as	        assert
+    break	    class	    continue
+    def	        del	        elif
+    else	    except	    False
+    finally	    for	        from
+    global	    if	        import
+    in	        is	        lambda
+    None	    nonlocal	not
+    or	        pass	    raise
+    return	    True	    try
+    while	    with	    yield
+
+Python Lines and Indentation
+
+    Python programming provides no braces to indicate blocks of code for class and function definitions or flow control. Blocks of code are denoted by line indentation, which is rigidly enforced.
+
+    The number of spaces in the indentation is variable, but all statements within the block must be indented the same amount. For  example −
+
+    if True:
+        print ("True")
+    else:
+        print ("False")
+

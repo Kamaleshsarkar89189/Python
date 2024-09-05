@@ -114,3 +114,44 @@ Python Variable - Multiple Assignment
         print (a)
         print (b)
         print (c)
+
+
+    You can aslo assign two integer object with values 1, 2 and one string object with the value "Zara Ali" is assigned to the variable c.
+
+    a,b,c = 1,2,"Zara Ali"
+
+    print (a)
+    print (b)
+    print (c)
+
+Python Variables - Naming Convertion
+
+    * A variable name must start with a letter or the underscore character.
+    * A variable name can't start with a number or any special character like $, (, * % etc.
+    * A variable name can only contain alpha-numeric character and underscore (A-z, 0-9, and_)
+    * Python variable are case sensitive which means Name and NAME are two different variables in Python.
+    * Python reserved keyword can't be used naming the variable.
+
+If the name of variable contains multiple words, we should use these naming patterns −
+
+    Camel case − First letter is a lowercase, but first letter of each subsequent word is in uppercase. For example: kmPerHour, pricePerLitre
+
+    Pascal case − First letter of each word is in uppercase. For example: KmPerHour, PricePerLitre
+
+    Snake case − Use single underscore (_) character to separate words. For example: km_per_hour, price_per_litre
+
+    Example 
+
+    counter = 100
+    _count  = 100
+    name1 = "Zara"
+    name2 = "Nuha"
+    Age  = 20
+    zara_salary = 100000
+
+    print (counter)
+    print (_count)
+    print (name1)
+    print (name2)
+    print (Age)
+    print (zara_salary)

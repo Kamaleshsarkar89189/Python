@@ -1,0 +1,32 @@
+Types of Data Types in Python
+
+    Numeric Data Types
+
+        * int 
+        * float
+        * complex
+
+    String Data Types
+
+    Sequence Data Types
+
+        * list
+        * tuple
+        * range
+
+    Binary Data Types
+
+        * bytes
+        * bytearray
+        * memoryview
+
+    Dictionary Data Types
+
+    Set Data Type
+
+        * set 
+        * frozenset
+
+    Boolean Data Type
+
+    None Type

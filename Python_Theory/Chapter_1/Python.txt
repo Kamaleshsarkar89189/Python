@@ -7,7 +7,7 @@ Frequently Asked Questions About Python History
     Python created by Guido Van Rossum, a Dutch Programmer.
 
     2. Why Python is called Python?
-    Python does not have any relation to Snake. The name of the Python  programming language was inspired by a British Comedy Group Monty    Python.
+    Python does not have any relation to Snake. The name of the Python  programming language was inspired by a British Comedy Group Monty Python.
 
     3. When was Python's first version released?
     Python's first version was released in February 1991.

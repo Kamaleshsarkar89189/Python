@@ -4,7 +4,7 @@ Python Variables
 
 Creating Python Variables
 
-    Python variables do not need explicit declaration to reserve memory space or you can say to create a variable. A Python variable is created automatically when you assign a value to it. The equal sign ( = ) is used to assign values to variables.
+    Python variables do not need exp licit declaration to reserve memory space or you can say to create a variable. A Python variable is created automatically when you assign a value to it. The equal sign ( = ) is used to assign values to variables.
 
     For example -
 

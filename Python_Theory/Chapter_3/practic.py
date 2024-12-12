@@ -22,11 +22,42 @@
 #     print("Execution complete.")
 
 
-class Book:
-    def __init__(self, title, author):
-        self.title = title
-        self.author = author
-    def details(self):
-        return f"Title: {self.title}, Author: {self.author}"
-b = Book("Python", "Author")
-print(b.details())
+# class Book:
+#     def __init__(self, title, author):
+#         self.title = title
+#         self.author = author
+#     def details(self):
+#         return f"Title: {self.title}, Author: {self.author}"
+# b = Book("Python", "Author")
+# print(b.details())
+
+rows=3
+for i in range(1, rows + 1):
+    print(" " * (rows - i), end="")
+    for j in range(i, 0, -1):
+        print(j, end="")
+    for j in range(2, i + 1):
+        print(j, end="")
+    print()
+print("\n")
+rows = 4
+alphabet = ['A', 'B', 'C', 'D']
+for i in range(rows, 0, -1):
+    print(" " * (rows - i), end="")
+    print((alphabet[i - 1] + " ") * i)
+
+print("\n")
+n = 3
+for i in range(1, n + 1):
+    spaces = ' ' * (n - i)
+    numbers = str(i) * (2 * i - 1)
+    print(spaces + numbers)
+
+print("\n")
+rows = 5
+cols = 7
+for i in range(rows):
+    if i == 0 or i == rows - 1:
+        print('*' * cols)
+    else:
+        print('' + ' ' * (cols - 2) + '')

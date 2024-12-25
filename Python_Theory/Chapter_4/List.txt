@@ -1,0 +1,95 @@
+Python Lists
+
+    It is a built-in data type that allows you to store and manipulate an ordered collection of items, which can be of any data type.
+
+Following are some examples of Python lists −
+
+    list1 = ["Rohan", "Physics", 21, 69.75]
+    list2 = [1, 2, 3, 4, 5]
+    list3 = ["a", "b", "c", "d"]
+    list4 = [25.50, True, -55, 1+2j]
+
+Features of Python Lists:
+
+    Mutable: List can be modified after creation. You can add, remove, or change elements in a list.
+
+    Dynamic Size: List in Python can grow or shrink in size as needed.
+
+    Ordered: Lists maintain the order of items. The items in the list have a specific sequence, and you can access them using their index (starting at 0).
+
+Built-in List Methods
+Here are some commonly used methods:
+
+    append(item): Adds an item to the end of the list.
+
+    extend(iterable): Extends the list by appending elements from an iterable.
+
+    insert(index, item): Inserts an item at a specific index.
+
+    remove(item): Removes the first occurrence of an item.
+
+    pop([index]): Removes and returns an item at a specific index (default is the last item).
+
+    index(item): Returns the index of the first occurrence of an item.
+
+    count(item): Returns the number of occurrences of an item.
+
+    sort(): Sorts the list in ascending order.
+
+    reverse(): Reverses the list in place.
+
+    clear(): Removes all elements from the list.
+
+Delete List Elements
+
+    To remove a list element, you can use the del statement.
+
+    Example:
+        list1 = ['physics', 'chemistry', 1997, 2000];
+        print (list1)
+        del list1[2];
+        print ("After deleting value at index 2 : ")
+        print (list1)
+
+    Output:
+
+    ['physics', 'chemistry', 1997, 2000]
+    After deleting value at index 2 :
+    ['physics', 'chemistry', 2000]
+
+Python List Operations
+
+Python Expression       	Results	                        Description
+[1, 2, 3] + [4, 5, 6]   	[1, 2, 3, 4, 5, 6]	            Concatenation
+['Hi!'] * 4                	['Hi!', 'Hi!', 'Hi!', 'Hi!']	Repetition
+3 in [1, 2, 3]	            True	                        Membership
+
+Indexing, Slicing, and Matrixes
+
+    Assuming following input −
+
+    L = ['spam', 'Spam', 'SPAM!']
+
+Python      Expression	        Results	Description
+L[2]	    SPAM!	            Offsets start at zero
+L[-2]	    Spam	            Negative: count from the right
+L[1:]	    ['Spam', 'SPAM!']	Slicing fetches sections
+
+
+Built-in Functions with Lists
+
+1	cmp(list1, list2)
+    Compares elements of both lists.
+
+2	len(list)
+    Gives the total length of the list.
+
+3	max(list)
+    Returns item from the list with max value.
+
+4	min(list)
+    Returns item from the list with min value
+5	list(seq)
+    Converts a tuple into list.
+
+

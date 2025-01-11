@@ -1,3 +1,5 @@
+# Reverse Two Digit Number
+
 def reverse_two_digit_numebr(number):
     if 10<=number<=99:
         reversed_number = (number % 10)* 10+(number//10)

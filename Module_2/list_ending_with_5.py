@@ -1,3 +1,5 @@
+# List ending with 5
+
 num_list = []
 n = int(input("Enter the number of elements you want to input: "))
 for i in range(n):

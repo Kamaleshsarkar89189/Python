@@ -1,3 +1,5 @@
+# b^2 - 4ac
+
 import cmath
 a=float(input("Enter a:"))
 b=float(input("Enter b:"))
